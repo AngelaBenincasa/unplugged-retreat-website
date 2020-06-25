@@ -104,8 +104,8 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
   color: #e2e3ed;
   text-align: left;
 }
@@ -124,7 +124,6 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
-  line-height: 1.25em;
 }
 
 h3,
@@ -142,6 +141,14 @@ p {
 
 address {
   font-style: normal;
+}
+
+img {
+	width: 100%;
+}
+
+figure {
+  margin: 0;
 }
 
 .content-wrapper {
@@ -167,11 +174,20 @@ header {
 }
 
 header .content-wrapper {
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 0;
+
+}
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .header-divider {
@@ -246,9 +262,13 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/unplugged-retreat.jpg')center no-repeat #333;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
 }
 
-h1 {
+.hero-area h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 2.25em;
   font-weight: 500;
@@ -284,7 +304,7 @@ input[type=button] {
   background-color: #2a423a;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
-  font-size: 1.4em;
+  font-size: 1.125em;
   color: #e2e3ed;
   border: none;
   text-align: center;
@@ -294,6 +314,9 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -328,6 +351,14 @@ input[type=button] {
   justify-content: center;
   flex-flow: row wrap;
   background: #2a423a;
+}
+
+.reviews figure {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .reviews h2 {
@@ -519,6 +550,10 @@ input[type=button] {
     justify-content: space-between;
   }
 
+  header figure {
+    width: 30%;
+  }
+
   header nav {
     width: 20%;
   }
@@ -532,12 +567,15 @@ input[type=button] {
   }
   /* Hero area */
 
+  .hero-area {
+    min-height: 600px;
+  }
 
-    .hero-area h1 {
-      font-size: 3em;
-      line-height: 1;
-      margin: 0;
-    }
+  .hero-area h1 {
+    font-size: 3em;
+    line-height: 1;
+    margin: 0;
+  }
 
   /* Aside */
   aside .content-wrapper {
@@ -577,6 +615,11 @@ input[type=button] {
 
   /* Reviews */
 
+  .reviews article figure,
+  .reviews article div {
+    width: 49%;
+  }
+
   .reviews article {
     display: flex;
     justify-content: space-between;
@@ -584,10 +627,6 @@ input[type=button] {
 
   .reviews h2{
     width: 85%;
-  }
-
-  .reviews article div {
-    width: 49%;
   }
 
   .reviews h3 {
@@ -707,7 +746,7 @@ input[type=button] {
     /* Hero */
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
   }
 
     /* Aside */
@@ -718,13 +757,6 @@ input[type=button] {
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
     width: 30%;
-  }
-  input[type=text] {
-    font-size: 1.125em;
-  }
-
-  input[type=button] {
-    font-size: 1.5em;
   }
 
   .form-description p {
