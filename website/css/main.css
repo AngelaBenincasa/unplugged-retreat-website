@@ -632,6 +632,10 @@ input[type=button] {
     margin-bottom: 20px;
   }
 
+  .features i {
+    margin-bottom: 30px;
+  }
+
   .features article {
     display: flex;
     justify-content: center;
