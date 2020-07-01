@@ -390,7 +390,8 @@ input[type=button] {
 
 .reviews h2 {
   margin-bottom: 40px;
-  line-height: 1;
+  line-height: 1.125;
+  width: 96%;
 }
 
 .reviews h3 {
