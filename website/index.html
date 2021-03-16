@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Unplugged Homepage</title>
+  <title>ANT Auto Detail Homepage</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,11 +16,16 @@
 
   <meta name="theme-color" content="#fafafa">
 
-<!-- FontAwesome CDN version 5.5 -->
-  <script src="https://kit.fontawesome.com/3cb11110ed.js" crossorigin="anonymous"></script>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:500,700" rel="stylesheet">
+  <!-- FontAwesome CDN version 5.5 -->
+    <script src="https://kit.fontawesome.com/3cb11110ed.js" crossorigin="anonymous"></script>
+
+  <!-- Adobe Fonts -->
+  <link rel="stylesheet" href="https://use.typekit.net/fky6omv.css">
+
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 
@@ -32,123 +37,244 @@
   <!-- Add your site or application content here -->
 
  <header>
-   <div class="content-wrapper">
-     <figure>
-       <a href="#"><img src="img/unpluggedlogo.png" alt="unplugged logo"></a>
-     </figure>
-     <div class="header-divider"></div>
-     <nav>
-        <ul>
-          <li><a href="faq/index.html" target="_blank">FAQ</a></li>
-          <li><a href="about/index.html" target="_blank">About</a></li>
-        </ul>
+   <div class="container">
+
+     <div class="ant-header">
+       <div class="site-title">
+          <p>A Nice Touch Auto Detail</p>
+        </div>
+
+        <figure class="ant-logo-main">
+          <a href="#"><img src="img/ant-logo.png" alt="ANT Auto Detail logo"></a>
+        </figure>
+      </div>
+
+      <div class="hamburger-menu">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+      </div>
+
+     <nav class="navbar">
+       <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="services/index.html" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="about/index.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="contact/index.html" class="nav-link">Contact</a></li>
+      </ul>
     </nav>
+
+    <section class="hero-area">
+      <div class="content-wrapper">
+        <h3>What We Do<br>Who We Are</h3>
+        <div class="ant-button">
+          <input type="button" value="Services">
+        </div>
+      </div>
+    </section>
+
+    <div class="header-callouts">
+      <p>OUR SERVICES, SHORT LIST, QUICK CALLOUTS</p>
+    </div>
   </div>
- </header>
+</header>
+
 
  <main>
-
-   <section class="hero-area">
-     <div class="content-wrapper">
-       <h1>Retreat from the desk, return refreshed.</h1>
-     </div>
-   </section>
-
-   <aside>
-     <div class="content-wrapper">
-        <div class="form-description">
-          <h3>Want to join the next retreat?</h3>
-          <p>Find out when we are holding our next retreat and how your company or team can sign up!</p>
-        </div>
-         <div class="form">
-           <h3>Find out more</h3>
-            <input type="text" name="name" value="name@email.com">
-            <input type="button" value="Download Itinerary">
-        </div>
-      </div> <!-- aside content wrapper ends -->
-   </aside>
-
-   <section class="features">
+   <section class="mission-area">
     <div class="content-wrapper">
-      <h2>Have the work week you always <span>dreamed of &mdash;</span> without the bad wifi.</h2>
-      <div class="features-items">
+      <div class="ant-logo-mission">
+        <figure>
+          <img src="img/ant-logo.png" alt="ANT Auto Detail logo">
+        </figure>
+      </div>
+      <h3>Our Mission Statement</h3>
+      <h4>HOW WE DO IT.<br class="mobile-break">
+        PLACEHOLDER TEXT.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius posuere mi, nec viverra magna euismod a. Fusce ornare, metus quis pellentesque vestibulum, mauris felis rutrum velit, sit amet mollis enim ex et felis. Quisque elementum sodales odio, eget tempor erat tempus ut. Fusce varius purus eros, non porttitor est ullamcorper sed.</h4>
+      <div class="ant-button">
+        <input type="button" value="Our Story">
+      </div>
+    </div>
+    <div class="homepage-center-image">
+      <figure>
+        <img src="img/gray-car-002.jpg" alt="Gray Car with Graffiti Wall">
+      </figure>
+    </div>
+    </section>
+
+    <section class="service-packages">
+     <div class="content-wrapper">
+       <h1>What We Do</h1>
+       <p>SUMMARY OF SERVICES PLACEHOLDER TEXT. PRESENTING / OPENING STATEMENT OF SERVICES PLACEHOLDER TEXT.</p>
+      <div class="services-packages-summaries">
         <article>
-          <p class="fontawesome-icon"><i class="fas fa-campground"></i></p>
-          <p class="features-item-description">Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
+          <h3>Service Option 1</h3>
+          <h5>Placeholder Text about Service Option 1 - this is only a summary placeholder. I am a placeholder, fill me in with great prose.</h5>
         </article>
         <article>
-          <p class="fontawesome-icon"><i class="fas fa-bed"></i></p>
-          <p class="features-item-description">12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 breakout rooms.</p>
+          <h3>Service Option 2</h3>
+          <h5>Placeholder Text about Service Option 2 - this is only a summary placeholder. I am a placeholder, fill me in with great prose.</h5>
         </article>
         <article>
-          <p class="fontawesome-icon"><i class="fas fa-utensils"></i></p>
-          <p class="features-item-description">Private chef team providing on demand meals - just like your team kitchen.</p>
+          <h3>Service Option 3</h3>
+          <h5>Placeholder Text about Service Option 3 - this is only a summary placeholder. I am a placeholder, fill me in with great prose.</h5>
         </article>
         <article>
-          <p class="fontawesome-icon"><i class="fas fa-shoe-prints"></i></p>
-          <p class="features-item-description">5 outdoor obstacle courses, including private beach ½ mile from bungalow.</p>
+          <h3>Service Option 4</h3>
+          <h5>Placeholder Text about Service Option 4 - this is only a summary placeholder. I am a placeholder, fill me in with great prose.</h5>
         </article>
-        <article>
-          <p class="fontawesome-icon"><i class="fas fa-smile"></i></p>
-          <p class="features-item-description">Retreat facilitator to manage your day to day activities so you all get a chance to reset.</p>
-        </article>
-        <article>
-          <p class="fontawesome-icon"><i class="fas fa-wifi"></i></p>
-          <p class="features-item-description">Dedicated computer room for times that you must wifi.</p>
-        </article>
+      </div>
+      <div class="ant-button">
+        <input type="button" value="Book an Appointment">
       </div>
     </div>
   </section>
 
-  <section class="reviews">
-    <div class="content-wrapper">
-      <h2>Be a better team in 5 days, like this one.</h2>
+  <!-- Add slideshow plugin code here -->
 
+  <section class="our-story">
+   <div class="content-wrapper">
+     <h1>Our Story</h1>
+     <p>SUMMARY OF HOW WE GOT STARTED. A HOOK ABOUT OUR EXPERTISE PLACEHOLDER TEXT.</p>
+     <div class="stats">
+        <article>
+          <h1>23</h1>
+         <h4>Fun stats</h4>
+        </article>
+       <article>
+         <h1>7</h1>
+         <h4>That speak to</h4>
+       </article>
       <article>
-        <figure>
-          <a href="#"><img src="img/unplugged-retreat-lacrue.jpg" alt="LaCrue Bottling Co Team Photo"></a>
-        </figure>
-        <div>
-          <h3>LaCrue Bottling Co. October 2018</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+         <h1>4</h1>
+         <h4>Our skills</h4>
+       </article>
+       <article>
+         <h1>2906</h1>
+         <h4>And our expertise</h4>
+       </article>
+     </div>
+     <div class="ant-button">
+       <input type="button" value="Show Me More">
+     </div>
+   </div>
+   </section>
+
+   <!-- Add testimonials slideshow plugin code here -->
+
+
+  <section class="testimonials">
+    <div class="content-wrapper">
+      <h1>From Our Clients</h1>
+      <div class="testimonials-divider"></div>
+      <article>
+        <div class="rating-stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="customer-reviews">
+          <h2>John Doe</h2>
+          <p>John Doe’s amazing review about how awesome Anthony’s work is placeholder text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius posuere mi, nec viverra magna euismod a. Fusce ornare, metus quis pellentesque vestibulum, mauris felis rutrum velit, sit amet mollis enim ex et felis. Quisque elementum sodales odio, eget tempor erat tempus ut.</p>
         </div>
       </article>
     </div>
   </section>
 
+  <aside>
+    <section class="lets-connect">
+    <div class="content-wrapper">
+      <h1>Let's Connect</h1>
+    <div class="form">
+      <input type="email" name="email" value="Email Address">
+      <div class="lets-connect-divider"></div>
+      <h4>Blurb to join mailing<br class="mobile-break"> list to get 10% off your first booking.</h4>
+      <div class="alt-button">
+        <input type="button" value="Submit">
+      </div>
+      </div>
+    </div> <!-- aside content wrapper ends -->
+   </section>
+  </aside>
  </main>   <!-- main wrapper -->
-
 
  <footer>
    <div class="content-wrapper">
       <div class="footer-content">
-        <address class="contact">
-          <h4>Contact</h4>
-          <p>
-          555-555-5555<br>
-          hello@unplugged.com
-          </p>
-        </address>
 
-      <div class="social">
-        <h4>Social</h4>
+        <div class="footer-column-one"
+          <address class="logo-contact-name">
+            <figure class="ant-logo-footer">
+              <a href="#"><img src="img/ant-logo.png" alt="ANT Auto Detail logo"></a>
+            </figure>
+            <h3>Contact</h3>
+            <div class="footer-divider"></div>
+            <h4>
+            Anthony Brown<br>
+            Job Title Here<br>
+            555-555-5555<br>
+            emailaddress@email.com
+          </h4>
+          </address>
+        </div>
+
+        <div class="footer-column-two">
+          <address class="footer-address">
+            <h3>Address</h3>
+            <div class="footer-divider"></div>
+            <h4>
+            Address line one<br>
+            Address line two<br>
+            Address line three
+          </h4>
+          </address>
+          <div class="footer-hours">
+            <h3>Hours of Operation</h3>
+            <div class="footer-divider"></div>
+            <h4>
+            Mon-Fri - These are the hours<br>
+            Saturday - These are the hours<br>
+            Sunday - These are the hours
+          </h4>
+          </div>
+        </div>
+
+      <div class="footer-column-three">
+        <div class="footer-form">
+          <h3>Contact</h3>
+          <form>
+            <input type="text" name="name" value="Name"><br>
+            <input type="email" name="email" value="Email Address"><br>
+            <textarea id="message" name="message" rows="4" cols="10">Message</textarea>
+            <!-- Add reCaptcha code here -->
+            <!--<input type="submit" value="Submit">-->
+            <input type="button" value="Submit">
+          </form>
+        </div>
         <div class="social-icons">
           <p>
-            <a href="https://www.facebook.com/yoursite" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/antautodetail/" target="_blank"><i class="fab fa-instagram"></i></a>
           </p>
           <p>
-            <a href="https://twitter.com/yoursite" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.google.com/search?safe=active&ei=vD9YX-7vKefCytMPt6CjmAU&q=a+nice+touch+auto+detail+ct&oq=a+nice+touch+auto+detail+ct&gs_lcp=CgZwc3ktYWIQAzIECAAQRzIECAAQRzIECAAQRzIECAAQR1CEjBhY6Y8YYLmSGGgAcAF4AIABAIgBAJIBAJgBAKABAaoBB2d3cy13aXrAAQE&sclient=psy-ab&ved=0ahUKEwjuvbOUhdvrAhVnoXIEHTfQCFMQ4dUDCA0&uact=5" target="_blank"><i class="fab fa-google"></i></a>
           </p>
           <p>
-            <a href="https://www.instagram.com/yoursite/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/ANTAutoDetail/" target="_blank"><i class="fab fa-facebook-square"></i></a>
           </p>
         </div>
       </div>
+
     </div> <!-- footer content ends -->
   </div> <!-- footer content-wrapper ends -->
+  <div class="copyright-divider"></div>
+
 
     <div class="copyright">
-      <p>Copyright 2019 | Unplugged</p>
+      <h5>This is our copyright and disclaimer section.<br>
+        This is our unsubscribe link section.</h5>
     </div>
  </footer>
 
@@ -166,6 +292,8 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+  <script type ="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
